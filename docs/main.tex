@@ -174,11 +174,20 @@ Nevertheless we can obtain example of final result without RandomizedSearchCV on
 		\caption{Confusion matrix}
 \end{wraptable}For this experiment we also have confusion matrix.
 
-\section{Code of the computational experiment}
-All code you can find in main.ipynb
+\section{Experiment description }
+During this experiment we tested CatBoost, SVC with linear and rbf kernels, RandomForest and Logistic regression. To nullify big class disbalance we used SMOTE and RandomUndersampling. We used geo-spatial dataset with data across west coast of the United States, we illustrated it here. It has approximately 400 rows about every point in winter only.
+\begin{center}
+\caption{Dataset points on USA map}
+\includegraphics[width=0.8\textwidth]{map.png}
+\end{center}
 
-\section{Visualisation}
-Everything in folder plots
 
+
+
+\section{Experiment results}
+\begin{center}
+\caption{Dataset points on USA map}
+\includegraphics[width=0.8\textwidth]{pivot_table.png}
+\end{center}
 
 \end{document}
