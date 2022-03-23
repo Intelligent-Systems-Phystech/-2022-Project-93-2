@@ -199,5 +199,12 @@ In this paper we use these plots:
     \item (Code is not done yet) DL techonologies visualistion
 \end{itemize}
 
+\section{Theoretical description}
+Let's consider our extreme event as high percentile of precipitation in area. As we want to predict flood risks in California our target event on whole dataset is extreme events only in California. Formaly speaking we work with spatial series and we can describe our problem so:
+$$
+y_t = \sum\limits^n_{i=1} F(Y_{t-i}) + E_t +\epsilon_t
+$$
+Here n denotes amount of previous significant events that contribute in our estimation, $Y_{t-i}$ is a spatial tensor of these events containing eight parameters (thus it has size (8, 24, 19)). $F$ is an implicit dependence, $epsilon$ is a random noise and $E$ is an error . Our aim is to choose machine learning methods that minimize error suggesting that noise has a zero mean value.  
+ 
 
 \end{document}
