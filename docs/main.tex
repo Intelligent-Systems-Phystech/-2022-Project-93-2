@@ -206,5 +206,10 @@ y_t = \sum\limits^n_{i=1} F(Y_{t-i}) + E_t +\epsilon_t
 $$
 Here n denotes amount of previous significant events that contribute in our estimation, $Y_{t-i}$ is a spatial tensor of these events containing eight parameters (thus it has size (8, 24, 19)). $F$ is an implicit dependence, $epsilon$ is a random noise and $E$ is an error . Our aim is to choose machine learning methods that minimize error suggesting that noise has a zero mean value.  
  
+\section{Error analysis}
+We made a basic experiment with a convolution neural network. As loss criterion we use cross entropy function. Base on this graphics we conclude that we can improve our quality by increasing epochs, which is next goal of this work
+\begin{center}
+\includegraphics[width=1\textwidth]{Loss plots.png}
+\end{center}
 
 \end{document}
