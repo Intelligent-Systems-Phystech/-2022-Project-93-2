@@ -1,15 +1,15 @@
-# 2022-Project-103
+# 2022-Project-93-2
 <div align="center">
   <H1>
     Flood risk prediction via machine learning methods
   </H1>
   <br><br>
-  Alen Aliev
+  Vladislav Pyzh
 </div><br>
 
 ## Annotation
-Proteins are involved in several biological reactions by means of interactions with other proteins or
-with other molecules such as nucleic acids, carbohydrates, and ligands. Among these interaction
-types, protein–protein interactions (PPIs) are considered to be one of the key factors as they are
-involved in most of the cellular processes. \
-In this work we aim to compile a novel benchmark of PPIs with known binding affinity values from refined data and benchmark the resulting deep learning geometry method against existing state-of-the-art approaches.
+In this work we observe extreme weather condition predictions, we particularly focus on
+floods. We make predictions in short-term periods assuming we have stationary time series
+and in long-term periods assuming we have not stationary time series. The main feature of
+this problem is that we want to predict extreme values with high accuracy, whether prediction
+of low values is not very sufficient.
