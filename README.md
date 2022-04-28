@@ -13,3 +13,6 @@ floods. We make predictions in short-term periods assuming we have stationary ti
 and in long-term periods assuming we have not stationary time series. The main feature of
 this problem is that we want to predict extreme values with high accuracy, whether prediction
 of low values is not very sufficient.
+
+## Code
+Baseline:https://github.com/Intelligent-Systems-Phystech/2022-Project-93-2/blob/master/code/mean_std_classification_CASM.ipynb
