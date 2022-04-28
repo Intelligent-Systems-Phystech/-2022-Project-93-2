@@ -16,3 +16,4 @@ of low values is not very sufficient.
 
 ## Code
 Baseline:https://github.com/Intelligent-Systems-Phystech/2022-Project-93-2/blob/master/code/mean_std_classification_CASM.ipynb
+DL solution: https://github.com/Intelligent-Systems-Phystech/2022-Project-93-2/blob/master/code/CNN_CASM.ipynb
